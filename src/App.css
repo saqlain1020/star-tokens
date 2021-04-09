@@ -30,6 +30,9 @@ h2,
 h3 {
   font-family: "Raleway", sans-serif !important;
 }
+h4,h5,h6{
+  font-family: 'Quantico', sans-serif !important; 
+}
 .MuiButton-outlinedPrimary {
   color: #14a5d3 !important;
   border-color: #14a5d3 !important;

@@ -8,11 +8,12 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: 20,
   },
   heading: {
-    color: "white",
-    fontSize: 32,
-    fontWeight: 600,
+    color: "#14a5d3",
+    fontSize: 34,
+    fontWeight: 400,
     letterSpacing: 3,
-    marginBottom: 20,
+    marginBottom: 50,
+    textAlign:"center",
   },
   roadMapTitle: {
     color: "white",
