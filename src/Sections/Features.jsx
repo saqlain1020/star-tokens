@@ -10,7 +10,7 @@ import { v4 as uuid } from "uuid";
 const useStyles = makeStyles((theme) => ({
   root: {
     paddingTop: 20,
-    paddingBottom: 20,
+    paddingBottom: 40,
   },
   heading: {
     color: "#14a5d3",

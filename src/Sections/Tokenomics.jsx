@@ -6,7 +6,7 @@ import TokenCard from "../Components/TokenCard/TokenCard";
 const useStyles = makeStyles((theme) => ({
   root: {
     paddingTop: 20,
-    paddingBottom: 20,
+    paddingBottom: 40,
   },
   heading: {
     color: "#14a5d3",
@@ -20,28 +20,28 @@ const useStyles = makeStyles((theme) => ({
 
 const data = [
   {
-    title: "TOKEN TICKER",
-    content: "SOGE",
+    title: "Total Supply",
+    content: "1,000,000,000,000",
   },
   {
-    title: "TOKEN USD",
-    content: "235$",
+    title: "Token Name",
+    content: "SAFESPACE",
   },
   {
-    title: "ABC D",
-    content: "USD",
+    title: "Ticker",
+    content: "SAFESPACE",
   },
   {
-    title: "TOKEN TICKER",
-    content: "SOGE",
+    title: "BURN RATE",
+    content: "5%",
   },
   {
-    title: "TOKEN TICKER",
-    content: "SOGE",
+    title: "REDISTRIBUTION RATE",
+    content: "5%",
   },
   {
-    title: "TOKEN TICKER",
-    content: "SOGE",
+    title: "Safe Space Protocol",
+    content: "-",
   },
 ];
 
