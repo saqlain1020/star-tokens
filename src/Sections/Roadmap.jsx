@@ -6,6 +6,7 @@ import { Timeline, Event } from "react-timeline-scribble";
 const useStyles = makeStyles((theme) => ({
   root: {
     paddingTop: 20,
+    paddingBottom: 20,
   },
   heading: {
     color: "#14a5d3",

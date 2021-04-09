@@ -1,4 +1,4 @@
-import { Container } from "@material-ui/core";
+import { Container, Divider } from "@material-ui/core";
 import "./App.css";
 import Main from "./Sections/Main";
 import Roadmap from "./Sections/Roadmap";
@@ -10,7 +10,9 @@ function App() {
       <div className="App">
         <Main />
         <Roadmap/>
+        <Divider/>
         <Tokenomics/>       
+        <Divider/>
       </div>
     </Container>
   );

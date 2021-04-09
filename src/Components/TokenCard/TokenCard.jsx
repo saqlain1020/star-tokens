@@ -14,6 +14,8 @@ const useStyles = makeStyles((theme) => ({
   content: {
     color: "white",
     marginTop: 10,
+    fontWeight:600,
+    letterSpacing:1,
   },
 }));
 
