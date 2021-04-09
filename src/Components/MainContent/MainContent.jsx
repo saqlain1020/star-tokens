@@ -11,13 +11,13 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     letterSpacing: 1,
-    color: "white",
+    color: "rgba(230,230,230) ",
     marginTop: 20,
     textAlign: "center",
     fontSize: 40,
   },
   para:{
-      color: "white",
+      color: "rgba(230,230,230) ",
       maxWidth:600,
   },
   btn:{

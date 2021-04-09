@@ -4,7 +4,7 @@ import ImageSrc from '../../Assets/Images/logo.png'
 
 const useStyles = makeStyles((theme)=>({
     root:{
-        height:70,
+        height:80,
     },
     grid:{
         height:"100%",
@@ -38,31 +38,31 @@ const Navbar = () => {
         <div className={classes.root}>
         <Container maxWidth="lg" className={classes.grid}>
             <div className={`flex ${classes.link}`} style={{justifyContent:"flex-start"}}>
-                <img src={ImageSrc} width="30px" alt="" />
+                <img src={ImageSrc} width="40px" alt="" />
             </div>
                 <div className={`flex ${classes.link}`}>
-                    <a href="#">
+                    <a href="#root">
                     <Typography variant="h3" align="center" className={classes.linkText}>
                         Home
                     </Typography>
                     </a>
                 </div>
                 <div className={`flex ${classes.link}`}>
-                    <a href="#">
+                    <a href="#roadmap">
                     <Typography variant="h3" align="center" className={classes.linkText}>
                         Roadmap
                     </Typography>
                     </a>
                 </div>
                 <div className={`flex ${classes.link}`}>
-                    <a href="#">
+                    <a href="#tokenomics">
                     <Typography variant="h3" align="center" className={classes.linkText}>
                         Tokenomics
                     </Typography>
                     </a>
                 </div>
                 <div className={`flex ${classes.link}`}>
-                    <a href="#">
+                    <a href="#features">
                     <Typography variant="h3" align="center" className={classes.linkText}>
                         Features
                     </Typography>

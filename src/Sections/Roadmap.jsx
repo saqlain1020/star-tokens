@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     color: "#14a5d3",
-    fontSize: 34,
+    fontSize: 40,
     fontWeight: 400,
     letterSpacing: 3,
     marginBottom: 50,
@@ -64,7 +64,7 @@ const Roadmap = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="roadmap">
       <Container maxWidth="lg">
         <Typography variant="h5" className={classes.heading}>
           Roadmap

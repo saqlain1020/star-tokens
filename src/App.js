@@ -1,5 +1,6 @@
 import { Container, Divider } from "@material-ui/core";
 import "./App.css";
+import Features from "./Sections/Features";
 import Main from "./Sections/Main";
 import Roadmap from "./Sections/Roadmap";
 import Tokenomics from "./Sections/Tokenomics";
@@ -13,6 +14,7 @@ function App() {
         <Divider/>
         <Tokenomics/>       
         <Divider/>
+        <Features/>
       </div>
     </Container>
   );
