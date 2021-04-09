@@ -1,12 +1,14 @@
 import React from 'react'
-import MainComp from '../Canvas/MainComp'
 import Canvas from '../Canvas2/Canvas'
+import Navbar from './../Components/Navbar/Navbar';
+import MainContent from './../Components/MainContent/MainContent';
 
 const Main = () => {
     return (
         <div className="main-section">
-            {/* <MainComp/> */}
-            <Canvas/>
+            <Navbar/>
+            <MainContent/>            
+            <Canvas style={{zIndex:-1}}/>
         </div>
     )
 }

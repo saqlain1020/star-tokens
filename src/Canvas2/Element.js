@@ -36,7 +36,7 @@ const Element = ({ containerWidth, containerHeight }) => {
     };
   }, []);
 
-  let randR = 1 + Math.random() * 3;
+  let randR = 1 + Math.random() * 2;
   console.log(styles);
   return (
     <div
