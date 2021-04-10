@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Card,
-  Container,
-  makeStyles,
-  Typography,
-} from "@material-ui/core";
+import { Card, Container, makeStyles, Typography } from "@material-ui/core";
 import { v4 as uuid } from "uuid";
 
 const useStyles = makeStyles((theme) => ({
@@ -36,22 +31,16 @@ const useStyles = makeStyles((theme) => ({
 
 const data = [
   {
-    title: "GREATNESS AWAITS",
-    content: `We are a new currency within the DeFi space and are working day and
-    night to grow our service. $SAFESTAR has ambitious plans for the
-    future but we’re already loaded with innovative technology features.`,
+    title: "100% Community Driven",
+    content: `Community driven & fair launch. Dev burned all team tokens and participated in the fair launch with everyone else.`,
   },
   {
-    title: "GREATNESS AWAITS",
-    content: `We are a new currency within the DeFi space and are working day and
-    night to grow our service. $SAFESTAR has ambitious plans for the
-    future but we’re already loaded with innovative technology features.`,
+    title: "Automatic LP",
+    content: `Every trade contributes toward automatically generating liquidity locked inside PancakeSwap LP.`,
   },
   {
-    title: "GREATNESS AWAITS",
-    content: `We are a new currency within the DeFi space and are working day and
-    night to grow our service. $SAFESTAR has ambitious plans for the
-    future but we’re already loaded with innovative technology features.`,
+    title: "RFI Static Rewards",
+    content: `Holders earn passive rewards through static reflection as they watch their balance of SafeMoon grow indefinitely.`,
   },
 ];
 

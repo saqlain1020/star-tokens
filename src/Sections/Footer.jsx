@@ -81,16 +81,16 @@ const Footer = () => {
               <a href="#">
                 <FacebookIcon fontSize="large" className={classes.icon} />
               </a>
-              <a href="#">
+              <a href="https://twitter.com/SafeSpa99528468">
                 <TwitterIcon fontSize="large" className={classes.icon} />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/_safespaceproject/">
                 <InstagramIcon fontSize="large" className={classes.icon} />
               </a>
               <a href="#">
                 <RedditIcon fontSize="large" className={classes.icon} />
               </a>
-              <a href="#">
+              <a href="https://t.me/safespaceproject">
                 <TelegramIcon fontSize="large" className={classes.icon} />
               </a>
             </div>
