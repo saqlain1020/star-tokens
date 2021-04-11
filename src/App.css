@@ -10,8 +10,8 @@
   align-items: center;
 }
 .main-section {
-  height: calc(100vh);
-  max-height: 1000px;
+  /* height: calc(100vh); */
+  /* max-height: 1000px; */
 }
 body{
   /* background-color: rgb(23, 39, 61); */

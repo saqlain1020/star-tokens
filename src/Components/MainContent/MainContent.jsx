@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     flexFlow: "column",
-    height: "calc(100% - 80px)",
+    minHeight: "calc(100vh - 80px)",
     alignItems: "center",
     // justifyContent: "center",
     paddingTop: "10%",

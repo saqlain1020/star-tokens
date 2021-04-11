@@ -16,6 +16,9 @@ const useStyles = makeStyles((theme) => ({
     marginTop: 10,
     fontWeight:600,
     letterSpacing:1,
+    [theme.breakpoints.down('xs')]:{
+      fontSize:14,
+    }
   },
 }));
 
