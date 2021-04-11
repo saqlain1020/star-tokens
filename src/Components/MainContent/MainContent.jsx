@@ -89,16 +89,18 @@ const MainContent = () => {
                 Connect
               </Button>
             </Card>
-            <center>
-              <Button
-                variant="outlined"
-                color="secondary"
-                className={classes.butBtn}
-                style={{ marginBottom: 40 }}
-              >
-                Buy Now
-              </Button>
-            </center>
+            <Hidden smUp>
+              <center>
+                <Button
+                  variant="outlined"
+                  color="secondary"
+                  className={classes.butBtn}
+                  style={{ marginBottom: 40 }}
+                >
+                  Buy Now
+                </Button>
+              </center>
+            </Hidden>
           </Grid>
           <Hidden xsDown>
             <Grid item xs={12} sm={6} className={classes.flexAlign}>
