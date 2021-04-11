@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Hidden, makeStyles, Typography } from "@material-ui/core";
-import ImageSrc from "../../Assets/Images/logo.png";
+import ImageSrc from "../../Assets/Images/logonew.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,7 +46,7 @@ const Navbar = () => {
             className={`flex ${classes.link}`}
             style={{ justifyContent: "flex-start" }}
           >
-            <img src={ImageSrc} width="40px" alt="" />
+            <img src={ImageSrc} height="60px" alt="" />
           </div>
         </Hidden>
         <div className={`flex ${classes.link}`}>

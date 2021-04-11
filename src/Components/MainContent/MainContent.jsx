@@ -8,7 +8,7 @@ import {
   makeStyles,
   Typography,
 } from "@material-ui/core";
-import ImgSrc from "../../Assets/Images/logobig.gif";
+import ImgSrc from "../../Assets/Images/logonew.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,10 +37,14 @@ const useStyles = makeStyles((theme) => ({
   },
   flexAlign: {
     display: "flex",
-    height: "100%",
+    width: "100%",
     flexFlow: "column",
-    justifyContent: "center",
+    justifyContent: "flex-start",
     alignItems: "center",
+  },
+  butBtn: {
+    marginTop: 40,
+    width: "80%",
   },
 }));
 
@@ -53,12 +57,12 @@ const MainContent = () => {
         <Grid container spacing={2}>
           <Hidden smUp>
             <Grid item xs={12} sm={6} className={classes.flexAlign}>
-              <img src={ImgSrc} width="300px" alt="" />
+              <img src={ImgSrc} width="90%" alt="" />
             </Grid>
           </Hidden>
           <Grid item xs={12} sm={6}>
             <Typography variant="h1" align="left" className={classes.heading}>
-              SAFE STAR TOKENS
+              SAFE SPACE TOKENS
             </Typography>
             <Typography align="left" className={classes.para}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
@@ -85,10 +89,27 @@ const MainContent = () => {
                 Connect
               </Button>
             </Card>
+            <center>
+              <Button
+                variant="outlined"
+                color="secondary"
+                className={classes.butBtn}
+                style={{ marginBottom: 40 }}
+              >
+                Buy Now
+              </Button>
+            </center>
           </Grid>
           <Hidden xsDown>
             <Grid item xs={12} sm={6} className={classes.flexAlign}>
-              <img src={ImgSrc} width="300px" alt="" />
+              <img src={ImgSrc} width="80%" alt="" />
+              <Button
+                variant="outlined"
+                color="secondary"
+                className={classes.butBtn}
+              >
+                Buy Now
+              </Button>
             </Grid>
           </Hidden>
         </Grid>
